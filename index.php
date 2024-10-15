@@ -18,7 +18,7 @@
 </head>
 
 <body onload="createCaptcha();">
-    <div class="wrapper">
+    <div class="wrapper ">
         <?php include 'include/header.php'; ?>
         <div class="banner-wrapper">
             <div class="banner-video">
@@ -46,7 +46,7 @@
             <div class="containerFull">
                 <div class="row g-4">
                     <div class="col-xl-5 col-lg-6 col-12">
-                        <div class="mb-4">
+                        <div class="mb-4 position-relative">
                             <small class="text-uppercase ls-md fw-semibold text_primary">About Us</small>
                             <h2 class="fontHeading  mt-4 mb-3 fontWeight900 text_secondary">
 
@@ -57,6 +57,7 @@
                             <p class="mb-0">Consequat mauris nunc congue nisi vitae
                                 suscipit tellus mauris a. Amet mattis vulputate enim
                                 nulla aliquet porttitor lacus.</p>
+                            <img class="sipralarrow1" src="images/spiral2.png" alt="">
                         </div>
                         <div>
                             <a class="btn fontWeight600 header-btn" href=""><i class="fa-solid fa-phone me-1"></i>
@@ -110,7 +111,7 @@
         <section class="bg_secondary">
             <div class="containerFull">
                 <div class="row border-top border-bottom">
-                    <div class="col-md-4 border-end-md border-bottom border-bottom-md-0">
+                    <div class="col-md-4 border-end-md border-end border-bottom-md-0">
                         <div class="text-center py-lg-5 p-4">
                             <div class="mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff"
@@ -126,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 border-end-md border-bottom border-bottom-md-0">
+                    <div class="col-md-4 border-end-md border-end border-bottom-md-0">
                         <div class="text-center py-lg-5 p-4">
                             <div class="mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff"
@@ -219,7 +220,7 @@
                                         Speak To A Design Specialist
                                     </button>
                                 </div>
-                                <div class="formfooter">
+                                <!-- <div class="formfooter">
                                     <div class="d-flex justify-content-between">
                                         <div class="item_contact">
                                             <a href="https://api.whatsapp.com/send?phone=amp;text=Hi"><i
@@ -230,7 +231,7 @@
                                             <a href="tel:"><i class="fa fa-phone"></i> &nbsp; +91 929424344</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </form>
                         </div>
 
@@ -348,6 +349,49 @@
                 </h4>
                 <div class="row mt-4">
                     <div class="col-lg-3">
+                        <div class="add_ser_item ">
+                            <div class="img_box">
+                                <img src="images/home/add-services.jpeg" alt="">
+                            </div>
+                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
+                                Interior Design
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="add_ser_item ">
+                            <div class="img_box">
+                                <img src="images/home/add-services.jpeg" alt="">
+                            </div>
+                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
+                                Interior Design
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="add_ser_item ">
+                            <div class="img_box">
+                                <img src="images/home/add-services.jpeg" alt="">
+                            </div>
+                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
+                                Interior Design
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="add_ser_item ">
+                            <div class="img_box">
+                                <img src="images/home/add-services.jpeg" alt="">
+                            </div>
+                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
+                                Interior Design
+                            </h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="row mt-4">
+                    <div class="col-lg-3">
 
                         <div class="add-services">
                             <div class="right_icon">
@@ -437,7 +481,7 @@
                     </div>
 
 
-                </div>
+                </div> -->
 
             </div>
         </section>
@@ -445,19 +489,41 @@
 
         <section class="">
             <div class="containerFull">
-                <small class="text-uppercase title ls-md fw-semibold text_primary">
 
-                    WHY CHOOSE US
-                </small>
-                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text_secondary">
-
-                    AFFINITY BUILDERS ALWAYS OFFER
-                </h4>
 
 
                 <div class="row mt-4">
-                    <div class="col-lg-6">
-                        <div class="row">
+                    <div class="col-lg-6 js-splittext-lines">
+
+                        <small class="text-uppercase title ls-md fw-semibold text_primary">
+
+                            WHY CHOOSE US
+                        </small>
+                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text_secondary">
+
+                            Best Interior services & AffordablePrice
+                        </h4>
+                        <p>
+                            Our interior designers are known for their expertise and commitment to providing
+                            high-quality,
+                            affordable interior design solutions. We offer a variety of services tailored to your
+                            specific needs
+                            and budget, making our home remodeling experience a pleasant and enjoyable one.
+                        </p>
+                        <p class="mt-4">
+                            We strive to provide our clients with the best possible interior design solutions, and we
+                            are
+                            committed to providing transparent and professional estimates. This allows our clients to
+                            make
+                            informed decisions about their budget and project scope, ensuring that they receive the best
+                            possible results.
+                        </p>
+                        <a href="#"
+                            class="d-inline-block rounded-0 mt-5 icon-link icon-link-hover simple_btn fontWeight600">
+                            Know More
+                            <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                        </a>
+                        <!-- <div class="row">
 
                             <div class="col-lg-6 mb-3">
                                 <div class="choose_card">
@@ -507,14 +573,113 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-6">
-                        <div class="why_video_div">
-                            <!-- <video class="object-fit-cover w-100 " src="images/banner/choose.mp4"  loop muted autoplay></video> -->
+                        <div class="choose_card">
+                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                                #1
+
+                            </div>
+                            <div class="img_box ">
+                                <img src="images/home/_almeidahomeremodeling.webp" alt="">
+                            </div>
+                            <div class="ps-4">
+
+                                <h4 class="  text_primary">
+
+                                    Transparent Estimates
+                                </h4>
+                                <p class="mt-2">
+                                    100% Transparency
+                                    in Our Estimates
+                                </p>
+                            </div>
+                            <!-- <div class="ms-5">
+                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
+                            </div> -->
+
+                        </div>
+                        <div class="choose_card">
+                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                                #2
+
+                            </div>
+                            <div class="img_box ">
+                                <img src="images/home/_almeidahomeremodeling (1).webp" alt="">
+                            </div>
+                            <div class="ps-4">
+
+                                <h4 class="  text_primary">
+                                    Professional Oversight
+
+                                </h4>
+                                <p class="mt-2">
+                                    100% Transparency
+                                    in Our Estimates
+                                </p>
+
+                            </div>
+                            <!-- <div class="ms-5">
+                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
+                            </div> -->
+
+                        </div>
+                        <div class="choose_card">
+                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                                #3
+
+                            </div>
+                            <div class="img_box ">
+                                <img src="images/home/_almeidahomeremodeling (2).webp" alt="">
+                            </div>
+                            <div class="ps-4">
+
+                                <h4 class="  text_primary">
+
+                                    Satisfaction Guarantee
+                                </h4>
+                                <p class="mt-2">
+                                    100% Transparency
+                                    in Our Estimates
+                                </p>
+                            </div>
+                            <!-- <div class="ms-5">
+                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
+                            </div> -->
+
+                        </div>
+                        <div class="choose_card">
+                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                                #4
+
+                            </div>
+                            <div class="img_box ">
+                                <img src="images/home/_almeidahomeremodeling (3).webp" alt="">
+                            </div>
+                            <div class="ps-4">
+
+                                <h4 class="  text_primary">
+                                    Timely Completion
+                                </h4>
+                                <p class="mt-2">
+                                    100% Transparency
+                                    in Our Estimates
+                                </p>
+                            </div>
+                            <!-- <div class="ms-5">
+                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
+                            </div> -->
+
+                        </div>
+                        <!-- <div class="why_video_div">
+                          
                             <video class="myVideo" loop="" muted="" playsinline="" autoplay>
                                 <source src="images/banner/choose.mp4" type="video/mp4">
                             </video>
+                        </div> -->
+                        <div>
+
                         </div>
                     </div>
 
@@ -523,44 +688,485 @@
             </div>
         </section>
         <!--  -->
-        <section class="bg_secondary">
+        <section class="bg_secondary cta_home2">
             <div class="containerFull">
-                <div class="col-lg-6">
-                    <small class="text-uppercase title ls-md fw-semibold text-white-50"> Connect with us</small>
-                    <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
-                        Let's Get Started With Us,
-                        Further Info & Support Team
-                    </h4>
+                <div class="row justify-content-between align-items-center">
+
+                    <div class="col-lg-6">
+                        <small class="text-uppercase title ls-md fw-semibold text-white-50"> Connect with us</small>
+                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
+                            Let's Get Started With Us,
+                            Further Info & Support Team
+                        </h4>
 
 
-                    <a class="btn fontWeight600 header-btn mt-4" href=""><i class="fa-solid fa-phone me-1"></i> +91-1234567890</a>
-                </div>
-                <div class="col-lg-6">
-                
 
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <!-- <img class="w-100  h-100 object-fit-contain" src="images/home/homes.png" alt=""> -->
+
+                        <a class="btn fontWeight600 header-btn mt-4 " href=""><i class="fa-solid fa-phone me-1"></i>
+                            +91-1234567890</a>
+
+                    </div>
                 </div>
 
             </div>
 
         </section>
+        <!-- our process -->
+        <section>
+            <div class="containerFull">
+
+                <small class="text-uppercase title ls-md fw-semibold text_primary"> How we works</small>
+                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-Primary">
+                    Our Process To Decorate Your Personel Space
+                </h4>
+                <div class="row mt-5">
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="item_process d-flex align-items-center">
+                            <div class="process_img">
+                                <img src="images/home/add-services.jpeg" alt="">
+
+                            </div>
+                            <div class="process_content px-3 ">
+                                <h4 class="text_secondary fontWeight700">
+                                    01. Initial Proposal
+                                </h4>
+                                <p class="mt-2">
+                                    We gather all your details, preferences and requirements. Lorem, ipsum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eum.
+                                    Lorem ipsum dolor sit amet.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="item_process d-flex align-items-center">
+                            <div class="process_img">
+                                <img src="images/home/add-services.jpeg" alt="">
+
+                            </div>
+                            <div class="process_content px-3 ">
+                                <h4 class="text_secondary fontWeight700">
+                                    02. Design & Planning
+                                </h4>
+                                <p class="mt-2">
+                                    We gather all your details, preferences and requirements. Lorem, ipsum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eum.
+                                    Lorem ipsum dolor sit amet.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="item_process d-flex flex-row-reverse align-items-center">
+                            <div class="process_img">
+                                <img src="images/home/add-services.jpeg" alt="">
+
+                            </div>
+                            <div class="process_content px-3 ">
+                                <h4 class="text_secondary fontWeight700">
+                                    03. Final Design & Approval
+                                </h4>
+                                <p class="mt-2">
+                                    We gather all your details, preferences and requirements. Lorem, ipsum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eum.
+                                    Lorem ipsum dolor sit amet.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="item_process d-flex flex-row-reverse align-items-center">
+                            <div class="process_img">
+                                <img src="images/home/add-services.jpeg" alt="">
+
+                            </div>
+                            <div class="process_content px-3 ">
+                                <h4 class="text_secondary fontWeight700">
+                                    04. Payment & Delivery
+                                </h4>
+                                <p class="mt-2">
+                                    We gather all your details, preferences and requirements. Lorem, ipsum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eum.
+                                    Lorem ipsum dolor sit amet.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="bg_secondary">
+            <div class="containerFull">
+
+                <small class="text-uppercase title ls-md fw-semibold text-white-50">Gallery</small>
+                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
+                    Recently
+                    Worked Projects
+                </h4>
+
+                <div class="project_gallery mt-5">
+                    <div class="  ">
+                        <div id="level1" class="row">
+                            <div class="col1">
+
+                                <div class="gallery">
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+
+                                        <img src="https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="level2" class="row">
+
+                            <div class="col2">
+
+                                <div class="gallery">
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="level3" class="row">
+
+                            <div class="col3">
+
+                                <div class="gallery">
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                    <div class="gallery_item">
+                                        <img src="https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            alt="" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- meet our experts -->
+
+        <section class=" bg-gray-light" id="speaker">
+            <div class="containerFull">
+                <div>
+                    <small class="text-uppercase title ls-md fw-semibold text_primary">Meet Our Experts</small>
+                    <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-gray-800">
+                        Meet Our
+                        Expert Team
+                    </h4>
+                </div>
+                <div class=" mt-4">
+                    <div class="row row-cols-xl-5 row-cols-md-3 row-cols-1 g-4 flex-nowrap pb-4 pb-xl-0 me-5 me-lg-0">
+
+                        <div class="col team-member">
+                            <a href="#">
+                                <div class=" text-center shadow-sm border-0 card-lift">
+                                    <div class="card-body bg-white">
+                                        <div class="mb-4">
+                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
+                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
+                                        </div>
+                                        <div class="mb-2 ">
+                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
+                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col team-member">
+                            <a href="#">
+                                <div class=" text-center shadow-sm border-0 card-lift">
+                                    <div class="card-body bg-white">
+                                        <div class="mb-4">
+                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
+                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
+                                        </div>
+                                        <div class="mb-2 ">
+                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
+                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col team-member">
+                            <a href="#">
+                                <div class=" text-center shadow-sm border-0 card-lift">
+                                    <div class="card-body bg-white">
+                                        <div class="mb-4">
+                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
+                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
+                                        </div>
+                                        <div class="mb-2 ">
+                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
+                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col team-member">
+                            <a href="#">
+                                <div class=" text-center shadow-sm border-0 card-lift">
+                                    <div class="card-body bg-white">
+                                        <div class="mb-4">
+                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
+                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
+                                        </div>
+                                        <div class="mb-2 ">
+                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
+                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col team-member">
+                            <a href="#">
+                                <div class=" text-center shadow-sm border-0 card-lift">
+                                    <div class="card-body bg-white">
+                                        <div class="mb-4">
+                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
+                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
+                                        </div>
+                                        <div class="mb-2 ">
+                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
+                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-gray-light cta_home2">
+            <div class="containerFull">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="d-flex">
+                            <div class="m-auto">
+                                <small class="text-white-50 title">
+                                    Have Any Question ?
+                                </small>
+                                <h4 class="heading fontHeading fontWeight900 text-white mt-4">
+                                    Get in Touch with Our Experts
+
+                                </h4>
+                                <p class="mt-4 text-white">
+                                    Contact us today and take the next step building the home of your dreams!
+                                </p>
+                                <p class="text-white">
+                                    100% satisfaction guaranteed. Our expert team is ready to help you build your dream
+                                    home.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium hic illo sit
+                                    praesentium deserunt debitis voluptatem omnis adipisci aut culpa! Tempora nobis nam
+                                    dolorem rerum, aspernatur dolores quos sapiente. Aut.
+
+                                </p>
+
+                                <h4 class="text-white mt-5 h5" >
+                                    Talk to Our Experts
+                                </h4>
+                                <a href="#" class="d-inline-block text-white h1 mt-2 ">
+                                    +91-9197478287
+                                </a>
+                                <!-- <div class="text-white mt-4 d-flex gap-3">
+
+                                    <i class="fa-solid fa-location-dot heading"></i>
+                                    <div>
+                                        <h4 class="mb-1">
+                                            Location
+                                        </h4>
+                                        123 Main St, Anytown, USA<br>
+                                        (123) 456-7890<br>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="text-white mt-4 d-flex gap-3 ">
+                                    <i class="fa-solid fa-envelope heading"></i>
+                                    <div>
+                                        <h4 class="mb-1">
+                                            Email
+                                        </h4>
+                                        <a class="text-white" href="#">info@example.com</a>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="text-white mt-4 d-flex gap-3 ">
+                                <i class="fa-solid fa-phone heading"></i>
+                                    <div>
+                                        <h4 class="mb-1">
+                                          Phone No.
+                                        </h4>
+                                        <a class="text-white" href="#">+91-9193744281</a>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="mt-5">
+                                    <img class="w-100" src="images/contact.jpg" alt="">
+                                </div> -->
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bannerForm_main">
+                            <form action="" class="bg-white bannerForm">
+                                <div class=" p-4 bg_primary text-white ">
+                                    <h4 class="fontHeading fontWeight700">
+                                        Speak To A Our Expert
+                                    </h4>
+                                    <p class="mt-1 text-white-50">
+                                        Tell us about your project!
+                                    </p>
+                                </div>
+                                <div class="p-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="floatingName" placeholder="Name">
+                                        <label for="floatingName">Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="floatingPassword"
+                                            placeholder="Phone No.">
+                                        <label for="floatingPassword">Phone No.</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here"
+                                            style="height: 100px" id="floatingTextarea"></textarea>
+                                        <label for="floatingTextarea">Message</label>
+                                    </div>
+                                    <button class="btn header-btn w-100 py-3 mt-3  " type="submit">
+                                        Speak To A Design Specialist
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <?php include 'include/footer.php'; ?>
 
     </div>
