@@ -1,4 +1,154 @@
 <?php $page = 'home'; ?>
+<?php
+$projects = [
+    [
+        'image' => 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Sunset Over the Ocean',
+        'description' => 'A breathtaking view of the sunset over the ocean waves.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Mountain Adventure',
+        'description' => 'Exploring the beautiful mountain ranges and valleys.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'City Skyline at Night',
+        'description' => 'The dazzling city lights against a starry night sky.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Autumn Forest',
+        'description' => 'A tranquil forest scene showcasing the colors of autumn.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Desert Dunes',
+        'description' => 'The serene beauty of rolling sand dunes in the desert.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Snowy Mountains',
+        'description' => 'Majestic snowy peaks during the winter season.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'title' => 'Beach Paradise',
+        'description' => 'Relaxing on a pristine beach with crystal-clear water.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Floral Garden',
+        'description' => 'A vibrant garden filled with colorful blooming flowers.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Peaceful Lake',
+        'description' => 'A serene lake reflecting the surrounding nature.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Rugged Coastline',
+        'description' => 'The dramatic cliffs and waves crashing on the shore.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Starry Night Sky',
+        'description' => 'The beauty of the Milky Way shining bright at night.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Lush Green Fields',
+        'description' => 'Expansive fields filled with greenery and wildflowers.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Misty Forest',
+        'description' => 'A mystical forest enveloped in morning fog.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Wildlife Safari',
+        'description' => 'Encountering wildlife in their natural habitat.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'other'
+    ],
+    // New projects for bathrooms and kitchens
+    [
+        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Modern Bathroom',
+        'description' => 'A sleek and modern bathroom design.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'bathroom'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Cozy Kitchen',
+        'description' => 'A cozy kitchen with warm lighting and a rustic feel.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'kitchen'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Elegant Bathroom',
+        'description' => 'An elegant bathroom with luxurious fixtures.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'bathroom'
+    ],
+    [
+        'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Sleek Kitchen',
+        'description' => 'A sleek kitchen design with modern appliances.',
+        'useFancyBox' => false,
+        'pageUrl' => 'project-details.php',
+        'type' => 'kitchen'
+    ],
+];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +172,11 @@
         <?php include 'include/header.php'; ?>
         <div class="banner-wrapper">
             <div class="banner-video">
-                <video src="images/banner/Ad.mp4" loop muted autoplay></video>
+                <!-- <video src="" loop muted autoplay poster="/images/poster.png"></video> -->
+                <video loop muted autoplay poster="images/poster.png">
+                    <source src="images/banner/Ad.mp4" type="video/mp4">
+
+                </video>
             </div>
             <div class="banner-text d-flex align-items-center justify-content-center">
                 <div class="inner_content">
@@ -179,7 +333,9 @@
                                     Contact us today and take the next step building the home of your dreams!
                                 </p>
                                 <div class="mt-5">
-                                    <img class="w-100" src="images/contact.jpg" alt="">
+                                    <img class="w-100"
+                                        src="https://marketingexperts.in/projects/affinitybuildersco/images/contact.jpg"
+                                        alt="">
                                 </div>
                             </div>
 
@@ -815,130 +971,101 @@
 
             </div>
         </section>
-
         <section class="bg_secondary">
             <div class="containerFull">
-
-                <small class="text-uppercase title ls-md fw-semibold text-white-50">Gallery</small>
-                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
-                    Recently
-                    Worked Projects
-                </h4>
-
-                <div class="project_gallery mt-5">
-                    <div class="  ">
-                        <div id="level1" class="row">
-                            <div class="col1">
-
-                                <div class="gallery">
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-
-                                        <img src="https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="level2" class="row">
-
-                            <div class="col2">
-
-                                <div class="gallery">
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=600"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="level3" class="row">
-
-                            <div class="col3">
-
-                                <div class="gallery">
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                    <div class="gallery_item">
-                                        <img src="https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                            alt="" />
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <small class="text-uppercase title ls-md fw-semibold text_primary fontWeight500">Our Portfolio</small>
+                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
+                            Recently
+                            Worked Projects
+                        </h4>
+                    </div>
+                    <div class="tabs_btn" style="width:fit-content">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="showAll-tab" data-bs-toggle="tab" href="#showAll"
+                                    role="tab" aria-controls="showAll" aria-selected="true">Show All</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="bathroom-tab" data-bs-toggle="tab" href="#bathroom" role="tab"
+                                    aria-controls="bathroom" aria-selected="false">Bathrooms</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="kitchen-tab" data-bs-toggle="tab" href="#kitchen" role="tab"
+                                    aria-controls="kitchen" aria-selected="false">Kitchens</a>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>
 
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="showAll" role="tabpanel" aria-labelledby="showAll-tab">
+                        <div class="project_gallery mt-5">
+                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
+                                <?php foreach ($projects as $project): ?>
+                                    <div class="gallery_item">
+                                        <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
+                                            href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
+                                            <img src="<?php echo $project['image']; ?>"
+                                                alt="<?php echo $project['title']; ?>" loading="lazy" />
+                                        </a>
+                                        <div class="gallery_card_content">
+                                            <h4><?php echo $project['title']; ?></h4>
+                                            <p class="text-white"><?php echo $project['description']; ?></p>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
+                        <div class="project_gallery mt-5">
+                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
+                                <?php foreach ($projects as $project): ?>
+                                    <?php if ($project['type'] === 'bathroom'): ?>
+                                        <div class="gallery_item">
+                                            <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
+                                                href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
+                                                <img src="<?php echo $project['image']; ?>"
+                                                    alt="<?php echo $project['title']; ?>" loading="lazy" />
+                                            </a>
+                                            <div class="gallery_card_content">
+                                                <h4><?php echo $project['title']; ?></h4>
+                                                <p class="text-white"><?php echo $project['description']; ?></p>
+                                            </div>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="kitchen" role="tabpanel" aria-labelledby="kitchen-tab">
+                        <div class="project_gallery mt-5">
+                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
+                                <?php foreach ($projects as $project): ?>
+                                    <?php if ($project['type'] === 'kitchen'): ?>
+                                        <div class="gallery_item">
+                                            <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
+                                                href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
+                                                <img src="<?php echo $project['image']; ?>"
+                                                    alt="<?php echo $project['title']; ?>" loading="lazy" />
+                                            </a>
+                                            <div class="gallery_card_content">
+                                                <h4><?php echo $project['title']; ?></h4>
+                                                <p class="text-white"><?php echo $project['description']; ?></p>
+                                            </div>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
         <!-- meet our experts -->
 
         <section class=" bg-gray-light" id="speaker">
@@ -1077,7 +1204,7 @@
 
                                 </p>
 
-                                <h4 class="text-white mt-5 h5" >
+                                <h4 class="text-white mt-5 h5">
                                     Talk to Our Experts
                                 </h4>
                                 <a href="#" class="d-inline-block text-white h1 mt-2 ">

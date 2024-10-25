@@ -11,11 +11,12 @@
 			</div>
 			<div class="menu-links">
 				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about_us">About Us</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#Engineered_Flooring">Gallery</a></li>
-					<li><a href="#Spc_Flooring">Contact</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about-us.php">About Us</a></li>
+					<li><a href="services.php">Services</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
+					<li><a href="blog.php">Blog</a></li>
+					<li><a href="contact-us.php">Contact</a></li>
 					<!-- <li><a href="#Vinyl_Flooring">Vinyl Flooring</a></li> -->
 					<!-- <li><a href="#">Location</a></li> -->
 				</ul>
