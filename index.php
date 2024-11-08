@@ -187,8 +187,11 @@ $projects = [
                     <!-- <p class="mt-4 text-white" data-aos="fade-up" data-aos-duration="1000">
                     Revitalize Your Space with Affinity Builders!
                     </p> -->
+                    <h2 class="mt-4 small_heading text-white" data-aos="fade-up" data-aos-duration="1000">
+                        Home Remodeling Company
+                    </h2>
                     <p class="mt-4 text-white" data-aos="fade-up" data-aos-duration="1000">
-                        Kitchen & Bath Remodeling | Home Additions | Outdoor Living
+                        Servicing the Greater Philadelphia region and Surrounding Suburbs
                     </p>
                     <a class="btn fontWeight600 header-btn mt-4" href="#" data-aos="fade-up" data-aos-duration="1000"
                         data-aos-delay="100">
@@ -206,12 +209,10 @@ $projects = [
                             <h2 class="fontHeading  mt-4 mb-3 fontWeight900 text_secondary">
 
                                 WE ENHANCE THE QUALITY OF LIFE IN YOUR HOME</h2>
-                            <p class="mb-3">is dedicated to providing extra care to each project from pre-construction
-                                to project closeout. Owned and Operated in Philadelphia, we strive to revitalize not
-                                only the Philadelphia area, but all of its surrounding counties. </p>
-                            <p class="mb-0">Consequat mauris nunc congue nisi vitae
-                                suscipit tellus mauris a. Amet mattis vulputate enim
-                                nulla aliquet porttitor lacus.</p>
+                            <p class="mb-3">Affinity Builders is dedicated to providing extra care to each project from
+                                pre-construction to project closeout. Owned and Operated in Philadelphia, we strive to
+                                revitalize not only the Philadelphia area, but all of its surrounding counties. </p>
+                            <p class="mb-0 fontWeight600">15 years + of experience | *PA Licensed and Insured</p>
                             <img class="sipralarrow1" src="images/spiral2.png" alt="">
                         </div>
                         <div>
@@ -567,24 +568,25 @@ $projects = [
                             Best Interior services & AffordablePrice
                         </h4>
                         <p>
-                            Our interior designers are known for their expertise and commitment to providing
-                            high-quality,
-                            affordable interior design solutions. We offer a variety of services tailored to your
-                            specific needs
-                            and budget, making our home remodeling experience a pleasant and enjoyable one.
+                            We understand that a home is more than just a structure, it’s a reflection of its owner, a
+                            place where memories are made and traditions are honored; that’s why attention to detail is
+                            the cornerstone of renovations at Affinity Builders. Residential renovations require careful
+                            planning and the ability to respond to evolving project demands while meeting the client’s
+                            expectations. Home remodeling projects can change the use of a property, improve
+                            functionality and breathe new life into a space.
                         </p>
                         <p class="mt-4">
-                            We strive to provide our clients with the best possible interior design solutions, and we
-                            are
-                            committed to providing transparent and professional estimates. This allows our clients to
-                            make
-                            informed decisions about their budget and project scope, ensuring that they receive the best
-                            possible results.
+                            We’ve learned that achieving customer satisfaction while building isn’t just a matter of
+                            creating a beautiful new space in your home. Satisfaction comes from delivering a level of
+                            service that leaves our clients knowing we listened to, appreciated and supported them from
+                            start to finish. By approaching the building process systematically and continuously
+                            improving these systems, we can consistently deliver a rewarding and beneficial customer
+                            experience every time.
                         </p>
                         <a href="#"
                             class="d-inline-block rounded-0 mt-5 icon-link icon-link-hover simple_btn fontWeight600">
-                            Know More
-                            <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                            Contact With Us
+                            <!-- <i class="fa-solid fa-arrow-right-long ms-2"></i> -->
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -810,7 +812,8 @@ $projects = [
 
             </div>
         </section>
-        <section class="bg_secondary">
+        
+        <!-- <section class="bg_secondary">
             <div class="containerFull">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-6">
@@ -902,8 +905,8 @@ $projects = [
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+          >
+        </section> -->
 
         <!-- meet our experts -->
 
@@ -1017,7 +1020,7 @@ $projects = [
 
             </div>
         </section> -->
-        <section>
+        <section class="bg-gray-light">
             <div class="containerFull">
                 <div class="text-center">
 
@@ -1035,7 +1038,7 @@ $projects = [
                             class=" ms-3 d-inline-block rounded-0  icon-link icon-link-hover simple_btn fontWeight600">
                             <i class="fa-regular fa-envelope me-2"></i>
                             Know More
-                        
+
                         </a>
 
 
@@ -1065,11 +1068,12 @@ $projects = [
                                     Contact us today and take the next step building the home of your dreams!
                                 </p>
                                 <p class="text-white">
-                                    100% satisfaction guaranteed. Our expert team is ready to help you build your dream
-                                    home.
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium hic illo sit
-                                    praesentium deserunt debitis voluptatem omnis adipisci aut culpa! Tempora nobis nam
-                                    dolorem rerum, aspernatur dolores quos sapiente. Aut.
+                                    We've discovered that customer satisfaction during a building project goes beyond
+                                    simply designing a beautiful new space. True satisfaction comes from providing
+                                    exceptional service that makes our clients feel heard, valued, and supported
+                                    throughout the entire process. By following a structured approach to construction
+                                    and consistently refining our methods, we ensure a positive and rewarding experience
+                                    for our clients every time.
 
                                 </p>
 
@@ -1079,38 +1083,7 @@ $projects = [
                                 <a href="#" class="d-inline-block text-white h1 mt-2 ">
                                     +91-9197478287
                                 </a>
-                                <!-- <div class="text-white mt-4 d-flex gap-3">
 
-                                    <i class="fa-solid fa-location-dot heading"></i>
-                                    <div>
-                                        <h4 class="mb-1">
-                                            Location
-                                        </h4>
-                                        123 Main St, Anytown, USA<br>
-                                        (123) 456-7890<br>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="text-white mt-4 d-flex gap-3 ">
-                                    <i class="fa-solid fa-envelope heading"></i>
-                                    <div>
-                                        <h4 class="mb-1">
-                                            Email
-                                        </h4>
-                                        <a class="text-white" href="#">info@example.com</a>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="text-white mt-4 d-flex gap-3 ">
-                                <i class="fa-solid fa-phone heading"></i>
-                                    <div>
-                                        <h4 class="mb-1">
-                                          Phone No.
-                                        </h4>
-                                        <a class="text-white" href="#">+91-9193744281</a>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="mt-5">
-                                    <img class="w-100" src="images/contact.jpg" alt="">
-                                </div> -->
                             </div>
 
                         </div>
