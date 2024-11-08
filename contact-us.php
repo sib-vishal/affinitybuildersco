@@ -53,7 +53,9 @@
                             <div class=" ">
                                 <span class="d-block mt-2  mb-5px heading fontWeight700">Office
                                     location</span>
-                                <p class="w-80 xl-w-100 md-w-75 mx-auto title">Maharashtra, India</p>
+                                <p class="w-80 xl-w-100 md-w-75 mx-auto snall">407 South 10TH ST Suite 103 
+
+Philadelphia, PA 19147 </p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +70,7 @@
                                 <span class="d-block mt-2  mb-5px heading fontWeight700">Send a
                                     message</span>
                                 <div class="w-100 d-block">
-                                    <a href="mailto:info@Affinity Buildersco.com" class=" text-black  ">info@Affinity Buildersco.com</a><br>
+                                    <a href="mailto:info@affinity-builders.com" class=" text-black  ">info@affinity-builders.com </a><br>
 
                                 </div>
                             </div>
@@ -85,8 +87,8 @@
                                 <span class="d-block mt-2  mb-5px heading fontWeight700">Let's talk with
                                     us</span>
                                 <div class="w-100 d-block">
-                                    <span class="d-block">Phone: <a href="tel:+91-8888-888-888"
-                                            class=" text-black">+91-8888-888-888</a></span>
+                                    <span class="d-block">Phone: <a href="tel:267-645-9005"
+                                            class=" text-black">267-645-9005</a></span>
                                 </div>
                             </div>
                         </div>
@@ -101,8 +103,7 @@
                             <div class="">
                                 <span class="d-block mt-2  mb-5px heading fontWeight700">Join our
                                     team</span>
-                                <p class="w-80 lg-w-100 md-w-75 sm-w-85 xs-w-75 mx-auto ">Lorem ipsum is
-                                    simply
+                                <p class="w-80 lg-w-100 md-w-75 sm-w-85 xs-w-75 mx-auto ">Connect with Us
                                 </p>
                             </div>
                         </div>

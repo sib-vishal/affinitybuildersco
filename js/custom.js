@@ -181,4 +181,52 @@ $(function () {
 });
 
 
+// services page js
+$(document).ready(function () {
+
+  function setActiveLink() {
+      var currentHash = window.location.hash;
+
+      
+      $('.services_navigation_link').removeClass('active');
+
+    
+      if (currentHash) {
+          $('.services_navigation_link[href="' + currentHash + '"]').addClass('active');
+      }
+  }
+
+  // Check the active link on page load
+  setActiveLink();
+
+  // Update active link on click
+  $('.services_navigation_link').on('click', function () {
+    
+      window.location.hash = $(this).attr('href').substring(1);
+
+
+      setActiveLink();
+  });
+
+  // Update the active class based on scroll position
+  $(window).on('scroll', function () {
+      var scrollPosition = $(document).scrollTop();
+
+      // Loop through each service section
+      $('.services_box_main').each(function () {
+          var serviceTop = $(this).offset().top - 200; 
+          var serviceBottom = serviceTop + $(this).outerHeight();
+
+          // Check if the section is in view
+          if (scrollPosition >= serviceTop && scrollPosition <= serviceBottom) {
+              var serviceId = $(this).attr('id');
+              $('.services_navigation_link').removeClass('active'); // Remove active from all links
+              $('.services_navigation_link[href="#' + serviceId + '"]').addClass('active'); // Add active class to the matching link
+          }
+      });
+  });
+});
+
+
+
 

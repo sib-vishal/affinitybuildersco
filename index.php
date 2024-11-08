@@ -1032,8 +1032,8 @@ $projects = [
                         Kitchen & Bath Remodeling | Home Additions | Outdoor Living
                     </p>
                     <div class="d-flex mt-4 justify-content-center ">
-                        <a class="btn fontWeight600 header-btn" href="#"><i class="fa-solid fa-phone me-1"></i>
-                            +91-1234567890</a>
+                        <a class="btn fontWeight600 header-btn" href="tel:267-645-9005"><i class="fa-solid fa-phone me-1"></i>
+                        267-645-9005</a>
                         <a href="#"
                             class=" ms-3 d-inline-block rounded-0  icon-link icon-link-hover simple_btn fontWeight600">
                             <i class="fa-regular fa-envelope me-2"></i>
@@ -1080,8 +1080,8 @@ $projects = [
                                 <h4 class="text-white mt-5 h5">
                                     Talk to Our Experts
                                 </h4>
-                                <a href="#" class="d-inline-block text-white h1 mt-2 ">
-                                    +91-9197478287
+                                <a href="tel:267-645-9005" class="d-inline-block text-white h1 mt-2 ">
+                                267-645-9005
                                 </a>
 
                             </div>

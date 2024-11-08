@@ -7,7 +7,7 @@
 					<div class="footer-info">
 						<a class="w-100 d-block" href="#">
 							<h3 class="large_heading fontHeading text_primary">
-							Affinitybuildersco
+								Affinitybuildersco
 							</h3>
 							<!-- <picture>
 								<source srcset="images/logo-2.webp" type="image/webp">
@@ -15,10 +15,7 @@
 							</picture> -->
 						</a>
 
-						<p class="my-3 title fontWeight500 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-							Recusandae fuga magni,
-							consequuntur velit, eaque laboriosam mollitia nesciunt error illum enim, dolor natus soluta
-							blanditiis nam harum consectetur quos excepturi. Voluptas?
+						<p class="my-3 title fontWeight500 ">Affinity Builders is dedicated to providing extra care to each project from pre-construction to project closeout. Owned and Operated in Philadelphia, we strive to revitalize not only the Philadelphia area, but all of its surrounding counties.
 
 						</p>
 						<div class="social-links mt-4">
@@ -58,18 +55,20 @@
 					<a href="#">
 						<p class="d-flex gap-3  mt-2  fontWeight600 ourlocation"> <span class="icon">
 								<i class=" fa-solid fa-location-dot text_secondary "></i>
-							</span> <span>1234 Sample Street, Suite 567
-							Imaginary City, State 12345</span> </p>
+							</span> <span>407 South 10TH ST Suite 103
+
+								Philadelphia, PA 19147 
+								PA License # PA-054502​ </span> </p>
 					</a>
-					<a href="#">
+					<a href="mailto:info@affinity-builders.com">
 						<p class="d-flex gap-3 align-items-center mt-3  fontWeight600 ourlocation"><span class="icon">
 								<i class="fa-regular fa-envelope"></i>
-							</span><span>hello@affinitybuildersco.com</span> </p>
+							</span><span>info@affinity-builders.com</span> </p>
 					</a>
-					<a href="">
+					<a href="tel:267-645-9005">
 						<p class="d-flex gap-3 align-items-center mt-3  fontWeight600 ourlocation"><span class="icon">
 								<i class="fa-solid fa-phone"></i>
-							</span><span>(123) 456-3435</span> </p>
+							</span><span>267-645-9005</span> </p>
 					</a>
 				</div>
 			</div>
