@@ -250,6 +250,11 @@ section {
   height: 100%;
   object-fit: cover;
 }
+.banner-wrapper .banner-video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .banner-text {
   width: 100%;
 

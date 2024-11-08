@@ -382,7 +382,7 @@ $projects = [
         var swiper = new Swiper(".similar_projects_slider", {
             spaceBetween: 30,
             // centeredSlides: true,
-            slidesPerView: 3,
+            slidesPerView: 2,
             loop: true,
             autoplay: {
                 delay: 5000,

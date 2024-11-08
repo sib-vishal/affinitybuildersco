@@ -173,10 +173,11 @@ $projects = [
         <div class="banner-wrapper">
             <div class="banner-video">
                 <!-- <video src="" loop muted autoplay poster="/images/poster.png"></video> -->
-                <video loop muted autoplay poster="images/poster.png">
+                <!-- <video loop muted autoplay poster="images/poster.png">
                     <source src="images/banner/Ad.mp4" type="video/mp4">
 
-                </video>
+                </video> -->
+                <img src="images/banner/banner.jpeg" alt="">
             </div>
             <div class="banner-text d-flex align-items-center justify-content-center">
                 <div class="inner_content">
@@ -333,9 +334,7 @@ $projects = [
                                     Contact us today and take the next step building the home of your dreams!
                                 </p>
                                 <div class="mt-5">
-                                    <img class="w-100"
-                                        src="https://marketingexperts.in/projects/affinitybuildersco/images/contact.jpg"
-                                        alt="">
+                                    <img class="w-100" src="images/telephone.jpg" alt="">
                                 </div>
                             </div>
 
@@ -494,7 +493,7 @@ $projects = [
                 </div>
         </section>
         <!-- add ser -->
-        <section class="bg-gray-light">
+        <!-- <section class="bg-gray-light">
             <div class="containerFull">
                 <small class="text-uppercase title ls-md fw-semibold text_primary">
 
@@ -546,104 +545,12 @@ $projects = [
                     </div>
 
                 </div>
-                <!-- <div class="row mt-4">
-                    <div class="col-lg-3">
-
-                        <div class="add-services">
-                            <div class="right_icon">
-                                <img src="images/home/trangle.svg" alt="">
-                            </div>
-                            <div class="img-box mx-auto">
-                                <img src="images/home/add-services.jpeg" alt="">
-
-                            </div>
-
-                            <h4 class="text-center text-white fontHeading mt-4">
-                                Outdoor Living
-                            </h4>
-
-                            <div class="btn bg-white btn_arrow shadow">
-                                <i class="fa-solid fa-arrow-up" style="rotate:90deg"></i>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-
-                        <div class="add-services">
-                            <div class="right_icon">
-                                <img src="images/home/trangle.svg" alt="">
-                            </div>
-                            <div class="img-box mx-auto">
-                                <img src="images/home/add-services.jpeg" alt="">
-
-                            </div>
-
-                            <h4 class="text-center text-white fontHeading mt-4">
-                                Decks
-                            </h4>
-
-                            <div class="btn bg-white btn_arrow shadow">
-                                <i class="fa-solid fa-arrow-up" style="rotate:90deg"></i>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-
-                        <div class="add-services">
-                            <div class="right_icon">
-                                <img src="images/home/trangle.svg" alt="">
-                            </div>
-                            <div class="img-box mx-auto">
-                                <img src="images/home/add-services.jpeg" alt="">
-
-                            </div>
-
-                            <h4 class="text-center text-white fontHeading mt-4">
-                                Mudrooms
-                            </h4>
-
-                            <div class="btn bg-white btn_arrow shadow">
-                                <i class="fa-solid fa-arrow-up" style="rotate:90deg"></i>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-
-                        <div class="add-services">
-                            <div class="right_icon">
-                                <img src="images/home/trangle.svg" alt="">
-                            </div>
-                            <div class="img-box mx-auto">
-                                <img src="images/home/add-services.jpeg" alt="">
-
-                            </div>
-
-                            <h4 class="text-center text-white fontHeading mt-4">
-                                Game Rooms
-                            </h4>
-
-                            <div class="btn bg-white btn_arrow shadow">
-                                <i class="fa-solid fa-arrow-up" style="rotate:90deg"></i>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div> -->
 
             </div>
-        </section>
+        </section> -->
         <!-- why -->
 
-        <section class="">
+        <section class="bg-gray-light">
             <div class="containerFull">
 
 
@@ -679,57 +586,6 @@ $projects = [
                             Know More
                             <i class="fa-solid fa-arrow-right-long ms-2"></i>
                         </a>
-                        <!-- <div class="row">
-
-                            <div class="col-lg-6 mb-3">
-                                <div class="choose_card">
-                                    <div class="img_box mx-auto">
-                                        <img src="images/home/_almeidahomeremodeling.webp" alt="">
-                                    </div>
-                                    <h4 class="mt-4 text-center text_primary">
-
-                                        Transparent Estimates
-                                    </h4>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-3">
-                                <div class="choose_card">
-                                    <div class="img_box mx-auto">
-                                        <img src="images/home/_almeidahomeremodeling (1).webp" alt="">
-                                    </div>
-                                    <h4 class="mt-4 text-center text_primary">
-
-                                        Professional Oversight
-                                    </h4>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-3">
-                                <div class="choose_card">
-                                    <div class="img_box mx-auto">
-                                        <img src="images/home/_almeidahomeremodeling (2).webp" alt="">
-                                    </div>
-                                    <h4 class="mt-4 text-center text_primary">
-
-                                        Satisfaction Guarantee
-                                    </h4>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-3">
-                                <div class="choose_card">
-                                    <div class="img_box mx-auto">
-                                        <img src="images/home/_almeidahomeremodeling (3).webp" alt="">
-                                    </div>
-                                    <h4 class="mt-4 text-center text_primary">
-
-                                        Timely <br> Completion
-                                    </h4>
-
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                     <div class="col-lg-6">
                         <div class="choose_card">
@@ -751,9 +607,7 @@ $projects = [
                                     in Our Estimates
                                 </p>
                             </div>
-                            <!-- <div class="ms-5">
-                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
-                            </div> -->
+
 
                         </div>
                         <div class="choose_card">
@@ -776,9 +630,7 @@ $projects = [
                                 </p>
 
                             </div>
-                            <!-- <div class="ms-5">
-                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
-                            </div> -->
+
 
                         </div>
                         <div class="choose_card">
@@ -800,9 +652,7 @@ $projects = [
                                     in Our Estimates
                                 </p>
                             </div>
-                            <!-- <div class="ms-5">
-                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
-                            </div> -->
+
 
                         </div>
                         <div class="choose_card">
@@ -823,19 +673,8 @@ $projects = [
                                     in Our Estimates
                                 </p>
                             </div>
-                            <!-- <div class="ms-5">
-                                <i class="fa-solid fa-arrow-left-long h1 fontWeight300" style="rotate:127deg"></i>
-                            </div> -->
-
                         </div>
-                        <!-- <div class="why_video_div">
-                          
-                            <video class="myVideo" loop="" muted="" playsinline="" autoplay>
-                                <source src="images/banner/choose.mp4" type="video/mp4">
-                            </video>
-                        </div> -->
                         <div>
-
                         </div>
                     </div>
 
@@ -975,7 +814,8 @@ $projects = [
             <div class="containerFull">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-6">
-                        <small class="text-uppercase title ls-md fw-semibold text_primary fontWeight500">Our Portfolio</small>
+                        <small class="text-uppercase title ls-md fw-semibold text_primary fontWeight500">Our
+                            Portfolio</small>
                         <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
                             Recently
                             Worked Projects
@@ -999,7 +839,6 @@ $projects = [
                     </div>
 
                 </div>
-
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="showAll" role="tabpanel" aria-labelledby="showAll-tab">
                         <div class="project_gallery mt-5">
@@ -1068,7 +907,7 @@ $projects = [
 
         <!-- meet our experts -->
 
-        <section class=" bg-gray-light" id="speaker">
+        <!-- <section class=" bg-gray-light" id="speaker">
             <div class="containerFull">
                 <div>
                     <small class="text-uppercase title ls-md fw-semibold text_primary">Meet Our Experts</small>
@@ -1175,6 +1014,36 @@ $projects = [
 
                     </div>
                 </div>
+
+            </div>
+        </section> -->
+        <section>
+            <div class="containerFull">
+                <div class="text-center">
+
+                    <h4 class="heading fontHeading fontWeight700">
+                        Transform Your Space: Affordable & Elegant Design Solutions
+
+                    </h4>
+                    <p class="mt-3">
+                        Kitchen & Bath Remodeling | Home Additions | Outdoor Living
+                    </p>
+                    <div class="d-flex mt-4 justify-content-center ">
+                        <a class="btn fontWeight600 header-btn" href="#"><i class="fa-solid fa-phone me-1"></i>
+                            +91-1234567890</a>
+                        <a href="#"
+                            class=" ms-3 d-inline-block rounded-0  icon-link icon-link-hover simple_btn fontWeight600">
+                            <i class="fa-regular fa-envelope me-2"></i>
+                            Know More
+                        
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
 
             </div>
         </section>

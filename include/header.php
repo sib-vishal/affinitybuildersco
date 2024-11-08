@@ -15,7 +15,7 @@
 					<li><a href="about-us.php">About Us</a></li>
 					<li><a href="services.php">Services</a></li>
 					<li><a href="portfolio.php">Portfolio</a></li>
-					<li><a href="blog.php">Blog</a></li>
+					<!-- <li><a href="blog.php">Blog</a></li> -->
 					<li><a href="contact-us.php">Contact</a></li>
 					<!-- <li><a href="#Vinyl_Flooring">Vinyl Flooring</a></li> -->
 					<!-- <li><a href="#">Location</a></li> -->
