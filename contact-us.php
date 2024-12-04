@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Contact Us | Affinity Buildersco</title>
+    <title>Contact Us | Affinity Builders</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">

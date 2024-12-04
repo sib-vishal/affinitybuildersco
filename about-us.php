@@ -30,7 +30,7 @@ $services = [
 <html lang="en">
 
 <head>
-    <title>About Us | Affinity Buildersco</title>
+    <title>About Us | Affinity Builders</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
@@ -102,7 +102,7 @@ $services = [
                                 About Us
                             </small>
                             <h4 class=" heading fontHeading mt-3 text_secondary ">
-                                Affinity Buildersco
+                                Affinity Builders
                             </h4>
                             <small>
                                 - Home Remodeling Company
@@ -389,7 +389,7 @@ $services = [
                                         </svg> </span>
                                     <span class="list_title">Installation</span>
                                 </li>
-                                <li class="list_items">
+                                <!-- <li class="list_items">
                                     <span class="list_icon">
                                         <svg xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -421,7 +421,7 @@ $services = [
                                             </path>
                                         </svg> </span>
                                     <span class="list_title">Furnishing</span>
-                                </li>
+                                </li> -->
                                 <li class="list_items">
                                     <span class="list_icon">
                                         <svg xmlns="http://www.w3.org/2000/svg"

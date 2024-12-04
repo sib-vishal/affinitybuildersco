@@ -7,7 +7,7 @@
 					<div class="footer-info">
 						<a class="w-100 d-block" href="#">
 							<h3 class="large_heading fontHeading text_primary">
-								Affinitybuildersco
+								Affinitybuilders
 							</h3>
 							<!-- <picture>
 								<source srcset="images/logo-2.webp" type="image/webp">
@@ -77,7 +77,7 @@
 	<div class="copyright_main ">
 		<div class="containerFull  ">
 			<div class="Copyright text-white">
-				© 2024 - All rights reserved <strong><span>Affinitybuildersco</span></strong>.
+				© 2024 - All rights reserved <strong><span>Affinitybuilders</span></strong>.
 			</div>
 			<div class="credits">
 

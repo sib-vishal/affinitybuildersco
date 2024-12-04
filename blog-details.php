@@ -50,7 +50,7 @@ if (!$selected_blog) {
 <html lang="en">
 
 <head>
-    <title>Blog | Affinity Buildersco</title>
+    <title>Blog | Affinity Builders</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">

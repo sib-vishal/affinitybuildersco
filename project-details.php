@@ -65,87 +65,87 @@ $projects = [
         'pageUrl' => 'project-details.php',
         'type' => 'other'
     ],
-    [
-        'image' => 'https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Peaceful Lake',
-        'description' => 'A serene lake reflecting the surrounding nature.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Rugged Coastline',
-        'description' => 'The dramatic cliffs and waves crashing on the shore.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Starry Night Sky',
-        'description' => 'The beauty of the Milky Way shining bright at night.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Lush Green Fields',
-        'description' => 'Expansive fields filled with greenery and wildflowers.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Misty Forest',
-        'description' => 'A mystical forest enveloped in morning fog.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Wildlife Safari',
-        'description' => 'Encountering wildlife in their natural habitat.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    // New projects for bathrooms and kitchens
-    [
-        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Modern Bathroom',
-        'description' => 'A sleek and modern bathroom design.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'bathroom'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Cozy Kitchen',
-        'description' => 'A cozy kitchen with warm lighting and a rustic feel.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'kitchen'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Elegant Bathroom',
-        'description' => 'An elegant bathroom with luxurious fixtures.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'bathroom'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Sleek Kitchen',
-        'description' => 'A sleek kitchen design with modern appliances.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'kitchen'
-    ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Peaceful Lake',
+    //     'description' => 'A serene lake reflecting the surrounding nature.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'other'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Rugged Coastline',
+    //     'description' => 'The dramatic cliffs and waves crashing on the shore.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'other'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Starry Night Sky',
+    //     'description' => 'The beauty of the Milky Way shining bright at night.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'other'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Lush Green Fields',
+    //     'description' => 'Expansive fields filled with greenery and wildflowers.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'other'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Misty Forest',
+    //     'description' => 'A mystical forest enveloped in morning fog.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'other'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Wildlife Safari',
+    //     'description' => 'Encountering wildlife in their natural habitat.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'other'
+    // ],
+
+    // [
+    //     'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Modern Bathroom',
+    //     'description' => 'A sleek and modern bathroom design.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'bathroom'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Cozy Kitchen',
+    //     'description' => 'A cozy kitchen with warm lighting and a rustic feel.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'kitchen'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Elegant Bathroom',
+    //     'description' => 'An elegant bathroom with luxurious fixtures.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'bathroom'
+    // ],
+    // [
+    //     'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //     'title' => 'Sleek Kitchen',
+    //     'description' => 'A sleek kitchen design with modern appliances.',
+    //     'useFancyBox' => false,
+    //     'pageUrl' => 'project-details.php',
+    //     'type' => 'kitchen'
+    // ],
 ];
 ?>
 
@@ -153,7 +153,7 @@ $projects = [
 <html lang="en">
 
 <head>
-    <title>Affinity Buildersco </title>
+    <title>Affinity Builders </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -185,7 +185,7 @@ $projects = [
                 </div>
             </div>
         </div>
-        <section>
+        <!-- <section>
             <div class="containerFull">
                 <div class="project-header">
                     <h4 class="heading fontHeading text_secondary">Sleek Serenity Bathroom Remodel</h4>
@@ -254,8 +254,8 @@ $projects = [
                     </ul>
                 </div>
             </div>
-        </section>
-        <section style="background-color:#f4f4f4">
+        </section> -->
+        <!-- <section style="background-color:#f4f4f4">
             <div class="containerFull">
                 <h4 class="heading fontHeading text_secondary">Similar Projects</h4>
                 <p class=" small ">Indulge in the ultimate relaxation with our contemporary transformation.</p>
@@ -289,8 +289,78 @@ $projects = [
                             <div class="swiper-button-prev"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
+    <section class="">
+        <div class="containerFull">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="project-header">
+                        <h4 class="heading fontHeading text_secondary">Sleek Serenity Bathroom Remodel</h4>
+                        <p class=" small ">Indulge in the ultimate relaxation with our contemporary transformation.</p>
+                    </div>
+
+                    <div class="description mt-4">
+                        <p>
+                            This contemporary transformation blends modern aesthetics with luxurious fixtures, creating
+                            a
+                            serene oasis right at home. Featuring a range of high-end Kohler products, this bathroom
+                            offers
+                            both style and functionality, providing a spa-like experience every day.
+                        </p>
+                        <p class="mt-3">
+                            The remodel centers around the innovative Kohler 8" Rainhead with Katalyst Air Induction
+                            Technology, offering a refreshing rain-like shower experience. Complementing this is the
+                            Kohler
+                            Purist multi-function showerhead and the Kohler Shift Square handheld shower, all in sleek
+                            chrome finishes. These fixtures not only enhance the showering experience but also add a
+                            touch
+                            of modern elegance.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 img_com">
+
+                    <div class="wrapper">
+
+                        <div class="image">
+                            <div class="image-1"></div>
+                            <div class="image-2"></div>
+                        </div>
+
+                        <div class="slider">
+                            <div class="dragLine">
+                                <span></span>
+                            </div>
+                            <input type="range" min="0" max="100" value="50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background:#f6f6f6">
+        <div class="containerFull">
+            <h4 class="heading fontHeading text_secondary">
+                Gallery Images
+            </h4>
+            <div class="row mt-5">
+                <?php foreach ($projects as $project): ?>
+                    <div class="col-lg-3 mb-4">
+                        <a href="<?php echo $project['image']; ?>" data-fancybox="gallery">
+                            <div class="project-galler-img">
+                                <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['title']; ?>"
+                                    class="project-image">
+                            </div>
+                        </a>
+
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
+
     <section class="bg-gray-light cta_home2">
         <div class="containerFull">
             <div class="row">
@@ -421,6 +491,18 @@ $projects = [
                 prevEl: ".swiper-button-prev",
             },
         });
+    </script>
+
+    <script>
+        const image = document.querySelector(".image .image-2");
+        const slider = document.querySelector(".slider input");
+        const drag = document.querySelector(".slider .dragLine");
+
+        slider.oninput = () => {
+            let sliderVal = slider.value;
+            drag.style.left = sliderVal + "%";
+            image.style.width = sliderVal + "%";
+        }
     </script>
 
 

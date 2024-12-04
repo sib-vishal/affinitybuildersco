@@ -96,7 +96,7 @@ section {
   left: 0px;
   z-index: 9;
   width: 100%;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 
 .large_heading {
@@ -185,7 +185,7 @@ section {
   align-items: center;
 }
 .leftLogo a img {
-  width: 120px;
+  width: 150px;
   filter: brightness(0) invert(1);
   margin-right: 20px;
 }
@@ -1341,65 +1341,193 @@ section {
   color: #fff;
   justify-content: center;
 }
-.about_imgbox img{
+.about_imgbox img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
 
-
-.services_navigation ul{
+.services_navigation ul {
   padding: 20px;
   background-color: var(--secondary-color);
   position: sticky;
   top: 150px;
 }
 .services_navigation ul li {
-margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-.services_navigation ul li a{
-  padding: 20px ;
+.services_navigation ul li a {
+  padding: 20px;
   display: block;
   color: #fff;
   background-color: var(--secondary-color);
 }
-.services_navigation ul li a:hover{
-  padding: 20px ;
+.services_navigation ul li a:hover {
+  padding: 20px;
   display: block;
   color: #fff;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }
-.services_navigation ul li a.active{
-  padding: 20px ;
+.services_navigation ul li a.active {
+  padding: 20px;
   display: block;
   color: #fff;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }
-.imgbox_services{
+.imgbox_services {
   height: 100%;
 }
-.imgbox_services img{
+.imgbox_services img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   /* border-radius: 20px; */
 }
-.services-scroll-margin{
+.services-scroll-margin {
   scroll-margin-top: 150px;
 }
-.services_know_more{
+.services_know_more {
   color: var(--primary-color);
   font-weight: 700;
 }
-.services_know_more:hover{
+.services_know_more:hover {
   color: var(--secondary-color);
   font-weight: 700;
 }
-.services_box_main{
+.services_box_main {
   border: 2px solid var(--secondary-color);
 }
-.services_box_main h3 ,.services_box_main p{
+.services_box_main h3,
+.services_box_main p {
   color: var(--secondary-color);
+}
+
+/* img_com */
+.img_com {
+  .wrapper {
+    position: relative;
+    height:400px;
+    width:100%;
+    overflow: hidden;
+    background: #fff;
+    border: 0.7rem solid #fff;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.15);
+  }
+
+  .wrapper .image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  .wrapper .image .image-1 {
+    height: 100%;
+    width: 100%;
+    /*filter: grayscale();*/
+background: url('../images/Autumn_Living_After.jpg') no-repeat ;
+background-size: cover;
+  /*background-attachment: fixed;*/
+  }
+
+  .wrapper .image .image-2 {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+      /*background-attachment: fixed;*/
+   background: url('../images/Autumn_Living_Before.jpg') no-repeat;
+   background-size: cover;
+  }
+
+  .wrapper .slider {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .wrapper .slider input {
+    width: 100%;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+  }
+
+  .wrapper .slider input::-webkit-slider-thumb {
+    height:400px;
+    width: 0.3rem;
+    background: none;
+    -webkit-appearance: none;
+    cursor: col-resize;
+  }
+
+  .wrapper .slider .dragLine {
+    width: 0.3rem;
+    height: 400px;
+    position: absolute;
+    left: 49.85%;
+    pointer-events: none;
+  }
+
+  .wrapper .slider .dragLine::before,
+  .wrapper .slider .dragLine::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 222px;
+    background: #fff;
+  }
+
+  .wrapper .slider .dragLine::before {
+    top: 0;
+  }
+
+  .wrapper .slider .dragLine::after {
+    bottom: 0;
+  }
+
+  .wrapper .slider .dragLine span {
+    height: 4.2rem;
+    width: 4.2rem;
+    border: 0.3rem solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper .slider .dragLine span::before,
+  .wrapper .slider .dragLine span::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    border: 1rem solid transparent;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .wrapper .slider .dragLine span::before {
+    border-left-color: #fff;
+    left: 40%;
+  }
+
+  .wrapper .slider .dragLine span::after {
+    left: 60%;
+    border-top-color: #fff;
+  }
+}
+
+.project-galler-img{
+  width: 100%;
+  height: 250px;
+ 
+}
+.project-galler-img img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+ 
 }

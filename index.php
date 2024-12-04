@@ -153,7 +153,7 @@ $projects = [
 <html lang="en">
 
 <head>
-    <title>Affinity Buildersco </title>
+    <title>Affinity Builders </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -182,7 +182,7 @@ $projects = [
             <div class="banner-text d-flex align-items-center justify-content-center">
                 <div class="inner_content">
                     <h1 class="fontHeading large_heading text-white" data-aos="flip-up" data-aos-duration="1500">
-                        Affinity Buildersco
+                        Affinity Builders
                     </h1>
                     <!-- <p class="mt-4 text-white" data-aos="fade-up" data-aos-duration="1000">
                     Revitalize Your Space with Affinity Builders!
@@ -212,8 +212,8 @@ $projects = [
                             <p class="mb-3">Affinity Builders is dedicated to providing extra care to each project from
                                 pre-construction to project closeout. Owned and Operated in Philadelphia, we strive to
                                 revitalize not only the Philadelphia area, but all of its surrounding counties. </p>
-                            <p class="mb-0 fontWeight600">15 years + of experience | *PA Licensed and Insured</p>
-                            <img class="sipralarrow1" src="images/spiral2.png" alt="">
+                            <!-- <p class="mb-0 fontWeight600">15 years + of experience | *PA Licensed and Insured</p> -->
+                            <!-- <img class="sipralarrow1" src="images/spiral2.png" alt=""> -->
                         </div>
                         <div>
                             <a class="btn fontWeight600 header-btn" href=""><i class="fa-solid fa-phone me-1"></i>
@@ -293,7 +293,7 @@ $projects = [
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-white">Award winning agency</h4>
+                                <h4 class="text-white">PA licensed and insured</h4>
                                 <p class="mb-0 text-white mt-3">Lorem ipsum, dolor sit amet
                                     consectetur elitorceat .</p>
                             </div>
@@ -320,7 +320,7 @@ $projects = [
         </section>
         <!--Expert team end-->
 
-        <section class="bg-gray-light">
+        <!-- <section class="bg-gray-light">
             <div class="containerFull">
                 <div class="row">
                     <div class="col-lg-6">
@@ -376,18 +376,7 @@ $projects = [
                                         Speak To A Design Specialist
                                     </button>
                                 </div>
-                                <!-- <div class="formfooter">
-                                    <div class="d-flex justify-content-between">
-                                        <div class="item_contact">
-                                            <a href="https://api.whatsapp.com/send?phone=amp;text=Hi"><i
-                                                    class="fab fa-whatsapp"></i>
-                                                &nbsp; WhatsApp</a>
-                                        </div>
-                                        <div class="item_contact">
-                                            <a href="tel:"><i class="fa fa-phone"></i> &nbsp; +91 929424344</a>
-                                        </div>
-                                    </div>
-                                </div> -->
+                               
                             </form>
                         </div>
 
@@ -396,10 +385,10 @@ $projects = [
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <!-- our services -->
-        <section>
+        <!-- <section>
             <div class="containerFull">
                 <small class="text-uppercase title ls-md fw-semibold text_primary">
 
@@ -492,7 +481,7 @@ $projects = [
                     </div>
 
                 </div>
-        </section>
+        </section> -->
         <!-- add ser -->
         <!-- <section class="bg-gray-light">
             <div class="containerFull">
@@ -685,7 +674,7 @@ $projects = [
             </div>
         </section>
         <!--  -->
-        <section class="bg_secondary cta_home2">
+        <!-- <section class="bg_secondary cta_home2">
             <div class="containerFull">
                 <div class="row justify-content-between align-items-center">
 
@@ -700,7 +689,7 @@ $projects = [
 
                     </div>
                     <div class="col-lg-3 position-relative">
-                        <!-- <img class="w-100  h-100 object-fit-contain" src="images/home/homes.png" alt=""> -->
+                  
 
                         <a class="btn fontWeight600 header-btn mt-4 " href=""><i class="fa-solid fa-phone me-1"></i>
                             +91-1234567890</a>
@@ -710,7 +699,7 @@ $projects = [
 
             </div>
 
-        </section>
+        </section> -->
         <!-- our process -->
         <section>
             <div class="containerFull">
@@ -1020,7 +1009,7 @@ $projects = [
 
             </div>
         </section> -->
-        <section class="bg-gray-light">
+        <!-- <section class="bg-gray-light">
             <div class="containerFull">
                 <div class="text-center">
 
@@ -1049,7 +1038,7 @@ $projects = [
 
 
             </div>
-        </section>
+        </section> -->
 
         <section class="bg-gray-light cta_home2">
             <div class="containerFull">

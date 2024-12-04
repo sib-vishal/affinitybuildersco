@@ -153,7 +153,7 @@ $projects = [
 <html lang="en">
 
 <head>
-    <title>Affinity Buildersco </title>
+    <title>Affinity Builders </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -216,20 +216,8 @@ $projects = [
                 </div>
             </div>
 
-            <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="showAll-tab" data-bs-toggle="tab" href="#showAll" role="tab"
-                   aria-controls="showAll" aria-selected="true">Show All</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="bathroom-tab" data-bs-toggle="tab" href="#bathroom" role="tab"
-                   aria-controls="bathroom" aria-selected="false">Bathrooms</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="kitchens-tab" data-bs-toggle="tab" href="#kitchens" role="tab"
-                   aria-controls="kitchens" aria-selected="false">Kitchens</a>
-            </li>
-        </ul> -->
+        
+        <div class="containerFull">
 
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="showAll" role="tabpanel" aria-labelledby="showAll-tab">
@@ -251,7 +239,7 @@ $projects = [
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
                     <div class="project_gallery mt-5">
                         <div class="gallery row row-cols-md-2 row-cols-lg-3">
@@ -273,7 +261,7 @@ $projects = [
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="tab-pane fade" id="kitchens" role="tabpanel" aria-labelledby="kitchens-tab">
                     <div class="project_gallery mt-5">
                         <div class="gallery row row-cols-md-2 row-cols-lg-3">
@@ -296,6 +284,8 @@ $projects = [
                     </div>
                 </div>
             </div>
+        </div>
+
     </div>
     </section>
 

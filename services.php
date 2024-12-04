@@ -56,6 +56,22 @@ $services = [
         'description' => 'Do you need a basement to protect your property from the elements? We work with you to make your property a beautiful, modern, and livable place.   ',
         'additional_info' => ' Basement Installation, Basement Replacement, Basement Removal, Basement Repair, Basement Design   '
     ],
+    [
+        'title' => 'BASEMENT REDESIGN     ',
+        'image' => 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1',
+        'link' => 'basements-details.php',
+        'id' => 'basement-redesign-detail',
+        'description' => 'Do you need a basement to protect your property from the elements? We work with you to make your property a beautiful, modern, and livable place.   ',
+        'additional_info' => ' Basement Installation, Basement Replacement, Basement Removal, Basement Repair, Basement Design   '
+    ],
+    [
+        'title' => 'BASEMENT REDESIGN     ',
+        'image' => 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1',
+        'link' => 'basements-details.php',
+        'id' => 'basement-redesign-detail',
+        'description' => 'Do you need a basement to protect your property from the elements? We work with you to make your property a beautiful, modern, and livable place.   ',
+        'additional_info' => ' Basement Installation, Basement Replacement, Basement Removal, Basement Repair, Basement Design   '
+    ],
 ];
 
 
@@ -65,7 +81,7 @@ $services = [
 <html lang="en">
 
 <head>
-    <title>Services | Affinity Buildersco</title>
+    <title>Services | Affinity Builders</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
@@ -110,7 +126,7 @@ $services = [
                     expert guidance every step of the way because we are committed to ensuring each client’s building
                     experience is both enjoyable and exceptional.
                 </p>
-                <!-- <div class="row mt-4">
+                <div class="row mt-4">
                     <?php foreach ($services as $service): ?>
                         <div class="col-lg-3">
                             <div>
@@ -133,11 +149,201 @@ $services = [
                             </div>
                         </div>
                     <?php endforeach; ?>
-                </div> -->
+                </div>
 
             </div>
         </section>
-        <section>
+
+        <!-- <section class="bg_secondary">
+            <div class="containerFull">
+                <small class="text_primary_light title fontWeight700">
+                    Our Services
+                </small>
+                <h4 class="text_third heading fontHeading mt-3 ">
+                    Explore Our Services: Crafted for You
+                </h4>
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="kitchens-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="kitchens-details.php">KITCHENS</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="bathroom-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="bathroom-details.php">BATHROOM</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="remodels-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/28836085/pexels-photo-28836085/free-photo-of-bright-empty-room-with-wooden-flooring-and-closet.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/28836085/pexels-photo-28836085/free-photo-of-bright-empty-room-with-wooden-flooring-and-closet.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="remodels-details.php">Exterior and Interior
+                                            Remodels</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="basements-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="basements-details.php">BASEMENTS</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="basements-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="basements-details.php">BEDROOMS</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="basements-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="basements-details.php">DINING ROOMS</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="basements-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="basements-details.php">OUTDOOR SPACES</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <div class="services_item">
+                                <div class="imgStyles">
+                                    <a href="basements-details.php">
+                                        <picture>
+                                            <source
+                                                srcset="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                type="image/webp">
+                                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700&amp;h=500&amp;dpr=1"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
+                                    <h3 class="title fontHeading fontWeight600 text-center">
+                                        <a class="text-white" href="basements-details.php">HOME OFFICES</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section>
             <div class="containerFull">
                 <div class="row services_navigation">
                     <div class=" col-lg-4">
@@ -145,8 +351,7 @@ $services = [
                             <?php foreach ($services as $service): ?>
                                 <li>
                                     <a class="services_navigation_link" href="#<?= htmlspecialchars($service['id']); ?>">
-                                        <!-- <img src="<?php echo $service['image']; ?>"
-                                            alt="<?php echo $service['title']; ?>" /> -->
+                                      
                                         <h3 class="title"><?php echo $service['title']; ?></h3>
                                     </a>
                                 </li>
@@ -157,7 +362,8 @@ $services = [
                     </div>
                     <div class=" col-lg-8 ps-5 ">
                         <?php foreach ($services as $service): ?>
-                            <div class="row shadow b mb-4 services_box_main  services-scroll-margin" id="<?= htmlspecialchars($service['id']); ?>">
+                            <div class="row shadow b mb-4 services_box_main  services-scroll-margin"
+                                id="<?= htmlspecialchars($service['id']); ?>">
                                 <div class="col-md-4  m-0 p-0   ">
                                     <div class="imgbox_services">
                                         <img src="<?= $service['image']; ?>"
@@ -174,13 +380,14 @@ $services = [
                                     </p>
                                     <p class="my-2">
                                         <strong>
-                                        Specializing in:
+                                            Specializing in:
                                         </strong>
-                                    <?= htmlspecialchars($service['additional_info']); ?>.
+                                        <?= htmlspecialchars($service['additional_info']); ?>.
 
                                     </p>
                                     <a href="<?= htmlspecialchars($service['link']); ?>"
-                                       class="text_primary  services_know_more">Know more <i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+                                        class="text_primary  services_know_more">Know more <i
+                                            class="fa-solid fa-arrow-right-long ps-2"></i></a>
                                 </div>
                             </div>
                         <?php endforeach; ?>
@@ -189,7 +396,7 @@ $services = [
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
 
 
@@ -205,8 +412,9 @@ $services = [
                         Kitchen &amp; Bath Remodeling | Home Additions | Outdoor Living
                     </p>
                     <div class="d-flex mt-4 justify-content-center ">
-                        <a class="btn fontWeight600 header-btn2" href="tel:267-645-9005"><i class="fa-solid fa-phone me-1"></i>
-                        267-645-9005</a>
+                        <a class="btn fontWeight600 header-btn2" href="tel:267-645-9005"><i
+                                class="fa-solid fa-phone me-1"></i>
+                            267-645-9005</a>
                         <a href="#"
                             class=" ms-3 d-inline-block rounded-0  icon-link icon-link-hover simple_btn2 fontWeight600">
                             <i class="fa-regular fa-envelope me-2"></i>
