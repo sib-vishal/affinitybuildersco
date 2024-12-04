@@ -29,9 +29,7 @@
 
                     </h1>
                     <p class="mt-3 text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repudiandae unde beatae accusamus
-                        laudantium fuga magni vel inventore perferendis ullam explicabo, nesciunt debitis. Itaque dicta
-                        repudiandae eos deleniti cum nisi.z
+                    connect with us. We will be sure to reply promptly. 
                     </p>
 
                 </div>
